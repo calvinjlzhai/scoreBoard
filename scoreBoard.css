@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Box Display */
+#box {
+    border: 10px inset rosybrown;
+    background:#F5F5F5;
+    border-bottom: 3px solid black;
+    width: 40%;
+    margin:0 auto;
+    padding-bottom: 10px;
+    margin-top:10%;   
+}
+
+.colorChange {
+    color: red;
+}
+
+.scoreBoard {
+    line-height: 10px;
+}
+
+.scoreBoard h5{
+    text-decoration: underline;
+}
+
+#header {
+    border: 3px dashed black;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+/* Buttons */
+#enter, #p1, #p2,  #reset{
+    font-size: 1em !important;
+	line-height: 0.9em !important;
+}
+
+#enter:hover, #p1:hover, #p2:hover,  #reset:hover{
+    opacity: 0.8;
+    color:cadetblue;
+}
+
+#enter {
+    margin-top: 2%;
+}
+
+#playerButton {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
